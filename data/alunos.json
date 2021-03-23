@@ -1,0 +1,30 @@
+[
+	{
+		"int_idaaluno": 1,
+		"vhr_nome": "Iago",
+		"vhr_sobrenome": "da Cunha Nogueira",
+		"dtt_nascimento": "01/09/1995",
+        "int_genero": 1,
+        "num_peso": 89.5,
+        "int_altura": 179,
+        "vhr_email": "iagodacunha@gmail.com",
+        "vhr_senha": "",
+        "vhr_whatsapp": "61984611798",
+        "vhr_descricao": "",
+        "int_idfprofessor": 1
+	},
+	{
+		"int_idaaluno": 2,
+		"vhr_nome": "João",
+		"vhr_sobrenome": "Pereira da Silva",
+		"dtt_nascimento": "07/10/1996",
+        "int_genero": 1,
+        "num_peso": 75,
+        "int_altura": 170,
+        "vhr_email": "joaopereira@gmail.com",
+        "vhr_senha": "",
+        "vhr_whatsapp": "61985629965",
+        "vhr_descricao": "",
+        "int_idfprofessor": 1
+	}
+]
