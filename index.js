@@ -5,7 +5,7 @@ const alunos = require("./data/alunos.json");
 
 const PORT = 8082;
 
-app.get("/", (req, res) => res.send("Ok"));
+app.get("/", (req, res) => res.sendFile(__dirname + "/html/home.html"));
 
 app.get("/professores", (req, res) => res.json(professores));
 

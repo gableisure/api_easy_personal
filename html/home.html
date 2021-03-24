@@ -5,11 +5,89 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home Page</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+    <link rel="stylesheet" href="../style/style.css">
+
+    <title>End Points Easy Personal</title>
+    <style>
+        .first-title-navbar {
+            font-weight: bold;
+            font-size: 30px;
+            color: white;
+        }
+        
+        .second-title-navbar {
+            font-size: 22px;
+            color: rgb(236, 236, 46);
+        }
+        
+        .title-end-points {
+            color: firebrick;
+        }
+        
+        .title-request {
+            color: #3d3d3d;
+            font-size: 1em;
+        }
+        
+        .type-request {
+            color: forestgreen;
+            font-size: 1.3rem;
+            font-weight: 600;
+        }
+        
+        .div-uri {
+            padding: 7px;
+            width: 500px;
+            border: 1px solid #cecece;
+            border-radius: 3px;
+        }
+        
+        .div-uri a {
+            text-decoration: none;
+        }
+        
+        .obs-end-point {}
+    </style>
+
 </head>
 
 <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-dark px-5">
+        <h2 class="navbar-brand mx-3">
+            <span class="first-title-navbar">API</span>
+            <span class="second-title-navbar mx-2">Easy Personal</span>
+    </nav>
+    <div class="container mt-5">
+        <div class="card py-3 px-3">
+            <div class="card-text">
+                <h2 class="title-end-points">End Points</h2>
+            </div>
 
+            <div class="card-body">
+                <hr>
+                <div class="px-3 py-2">
+                    <p class="title-request"><span class="type-request">GET</span> Professores</p>
+                    <div class="div-uri bg-light mx-3">
+                        <a href="https://api-easy-personal-dsv.herokuapp.com/professores" target="_blank">https://api-easy-personal-dsv.herokuapp.com/professores</a>
+                    </div>
+                    <div class="obs-end-point mt-3 px-3">
+                        <p>Retorna uma lista com todos os professores</p>
+                    </div>
+                </div>
+                <hr>
+                <div class="px-3 py-2">
+                    <p class="title-request"><span class="type-request">GET</span> Alunos</p>
+                    <div class="div-uri bg-light mx-3">
+                        <a href="https://api-easy-personal-dsv.herokuapp.com/alunos" target="_blank">https://api-easy-personal-dsv.herokuapp.com/alunos</a>
+                    </div>
+                    <div class="obs-end-point mt-3 px-3">
+                        <p>Retorna uma lista com todos os alunos</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 </body>
 
 </html>
