@@ -10,6 +10,10 @@
 
     <title>End Points Easy Personal</title>
     <style>
+        .footer {
+            background-color: #e2dede;
+        }
+        
         .first-title-navbar {
             font-weight: bold;
             font-size: 30px;
@@ -46,33 +50,31 @@
         .div-uri a {
             text-decoration: none;
         }
-        
-        .obs-end-point {}
     </style>
 
 </head>
 
-<body>
+<body class="bg-light">
     <nav class="navbar navbar-expand-lg navbar-light bg-dark px-5">
         <h2 class="navbar-brand mx-3">
             <span class="first-title-navbar">API</span>
             <span class="second-title-navbar mx-2">Easy Personal</span>
     </nav>
-    <div class="container mt-5">
+    <div class="container my-5">
         <div class="card py-3 px-3">
             <div class="card-text">
                 <h2 class="title-end-points">End Points</h2>
             </div>
-
             <div class="card-body">
                 <hr>
+                <!-- Div da Requisição -->
                 <div class="px-3 py-2">
                     <p class="title-request"><span class="type-request">GET</span> Professores</p>
                     <div class="div-uri bg-light mx-3">
                         <a href="https://api-easy-personal-dsv.herokuapp.com/professores" target="_blank">https://api-easy-personal-dsv.herokuapp.com/professores</a>
                     </div>
                     <div class="obs-end-point mt-3 px-3">
-                        <p>Retorna uma lista com todos os professores</p>
+                        <p>Retorna uma lista com todos os professores.</p>
                     </div>
                 </div>
                 <hr>
@@ -82,12 +84,21 @@
                         <a href="https://api-easy-personal-dsv.herokuapp.com/alunos" target="_blank">https://api-easy-personal-dsv.herokuapp.com/alunos</a>
                     </div>
                     <div class="obs-end-point mt-3 px-3">
-                        <p>Retorna uma lista com todos os alunos</p>
+                        <p>Retorna uma lista com todos os alunos.</p>
                     </div>
                 </div>
             </div>
         </div>
     </div>
+    <!-- Footer -->
+    <footer class="text-center text-lg-start footer">
+        <!-- Copyright -->
+        <div class="text-center p-3">
+            Desenvolvido por Gabriel Ribeiro de Araújo © 2020 Copyright
+        </div>
+        <!-- Copyright -->
+    </footer>
+    <!-- Footer -->
 </body>
 
 </html>
