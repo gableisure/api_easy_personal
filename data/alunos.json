@@ -26,5 +26,33 @@
         "vhr_whatsapp": "61985629965",
         "vhr_descricao": "",
         "int_idfprofessor": 1
+	},
+	{
+		"int_idaaluno": 3,
+		"vhr_nome": "Felipi",
+		"vhr_sobrenome": "Dechamps",
+		"dtt_nascimento": "25/10/1996",
+        "int_genero": 1,
+        "num_peso": 82.5,
+        "int_altura": 172,
+        "vhr_email": "dechamps@gmail.com",
+        "vhr_senha": "",
+        "vhr_whatsapp": "61983421525",
+        "vhr_descricao": "",
+        "int_idfprofessor": 1
+	},
+	{
+		"int_idaaluno": 4,
+		"vhr_nome": "Renata",
+		"vhr_sobrenome": "Paullik",
+		"dtt_nascimento": "25/10/1996",
+        "int_genero": 2,
+        "num_peso": 65.3,
+        "int_altura": 169,
+        "vhr_email": "paullik@gmail.com",
+        "vhr_senha": "",
+        "vhr_whatsapp": "61987222546",
+        "vhr_descricao": "",
+        "int_idfprofessor": 1
 	}
 ]
